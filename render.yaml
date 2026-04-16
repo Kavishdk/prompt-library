@@ -1,7 +1,7 @@
 services:
   - type: web
     name: ai-prompt-library
-    env: node
+    runtime: node
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
@@ -26,4 +26,3 @@ databases:
 redis:
   - name: prompt-cache
     plan: free
-    ipAllowList: [] # only allow internal connections
