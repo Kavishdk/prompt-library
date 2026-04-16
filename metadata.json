@@ -1,0 +1,6 @@
+{
+  "name": "AI Prompt Library",
+  "description": "Store, view, and manage AI image generation prompts. Built with Node.js, Express, React, and SQLite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
