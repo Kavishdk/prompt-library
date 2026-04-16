@@ -42,7 +42,7 @@ async function startServer() {
   } catch (e) {
     console.warn("⚠️ PostgreSQL not found. Falling back to SQLite.");
     const sqliteDb = await open({
-      filename: ':memory:',
+      filename: 'prompt_lib.db',
       driver: sqlite3.Database
     });
     db = {
